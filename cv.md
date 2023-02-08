@@ -17,3 +17,17 @@ Sed aliquam nisi dolor, sit amet laoreet lectus malesuada at. Vivamus nulla tort
 * CSS3
 * JavaScript Basics
 * Git/GitHub
+
+## **Code Example**
+```
+Some thing will be added here.
+```
+
+## **Courses:**
+* ?
+* ?
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## **Languages**
+* Russian – native.
+* English – B1 (Intermediate).
