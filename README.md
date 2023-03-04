@@ -1,1 +1,1 @@
-Link: https://Quettoipeux.github.io/rsschool-cv/cv
+https://Quettoipeux.github.io/rsschool-cv/cv
