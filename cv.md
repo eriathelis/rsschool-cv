@@ -5,6 +5,7 @@
 ## **Contacts**
 * **Phone:** +7 921 096-31-20
 * **Email:** quettoipeux@gmail.com
+* **Telergam:** [@Quettoipeux](https://t.me/Quettoipeux)
 * **GitHub:** [Quettoipeux](https://github.com/Quettoipeux)
 
 ## **About Me**
@@ -22,13 +23,19 @@ I have strong analytical skills and my personality can be described as thoughtfu
 
 ## **Code Example**
 ```
-Some thing will be added here.
+function areYouPlayingBanjo(name) {
+  if (name[0] === 'R' || name[0].toLowerCase() === 'r') {
+    return `${name} plays banjo`;
+    }
+  
+  return `${name} does not play banjo`;
+}
 ```
 
 ## **Courses:**
-* ?
-* ?
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* [Hexlet (in progress)](https://ru.hexlet.io/)
+* [RS School Course «JavaScript/Front-end» (in progress)](https://rs.school/index.html)
+* [HTML Academy (in progress)](https://htmlacademy.ru/)
 
 ## **Languages**
 * Russian – native.
