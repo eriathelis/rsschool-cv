@@ -20,23 +20,35 @@ I have strong analytical skills and my personality can be described as thoughtfu
 * CSS3
 * JavaScript Basics
 * Git/GitHub
+* Figma
 
 ## **Code Example**
 ```
-function areYouPlayingBanjo(name) {
-  if (name[0] === 'R' || name[0].toLowerCase() === 'r') {
-    return `${name} plays banjo`;
+const fizzBuzz = (begin, end) => {
+  const fizz = 'Fizz';
+  const buzz = 'Buzz';
+
+  for (let i = begin; i <= end; i += 1) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log(`${fizz}${buzz}`);
+    } else if (i % 3 === 0) {
+      console.log(`${fizz}`);
+    } else if (i % 5 === 0) {
+      console.log(`${buzz}`);
+    } else {
+      console.log(`${i}`);
     }
-  
-  return `${name} does not play banjo`;
-}
+  }
+};
 ```
 
 ## **Courses:**
 * [Hexlet (in progress)](https://ru.hexlet.io/)
-* [RS School Course «JavaScript/Front-end» (in progress)](https://rs.school/index.html)
-* [HTML Academy (in progress)](https://htmlacademy.ru/)
+* [RS School Course «JavaScript/Front-end. Stage 0» (in progress)](https://rs.school/js-stage0/)
 
-## **Languages**
-* Russian – native.
-* English – B1 (Intermediate).
+## **Projects:**
+* [Brain Games (in progress)](https://github.com/Quettoipeux/frontend-project-44)
+
+## **Languages:**
+* Russian – native
+* English – B1 (Intermediate)
