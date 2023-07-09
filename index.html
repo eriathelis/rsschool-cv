@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>CV</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-columns">
+          <div class="header-left-column">
+            <h1 class="header-title">Maria <span class="header-title-color">Taupeko</span></h1>
+            <h2 class="header-subtitle">Junior Front-end Developer</h2>
+          </div>
+
+          <div class="header-middle-column">
+            <figure>
+              <img src="images/avatar.jpeg" class="avatar" alt="Maria">
+            </figure>
+          </div>
+          
+          <div class="header-right-column">
+            <ul class="contacts-list">
+              <li class="contacts-list-item">
+                <div class="contacts-info mail">
+                  <a href="mailto:quettoipeux@gmail.com" class="underline" target="_blank">quettoipeux@gmail.com</a>
+                </div>
+              </li>
+              <li class="contacts-list-item">
+                <div class="contacts-info telegram">
+                  <a href="https://t.me/Quettoipeux" class="underline" target="_blank">@Quettoipeux</a>
+                </div>
+              </li>
+              <li class="contacts-list-item">
+                <div class="contacts-info location">
+                  <p class="inline">St.-Petersburg, Russia</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-columns">
+        <div class="main-left-column">
+          <section class="about accent">
+            <h2 class="title about-title uppercase">About me</h2>
+            <p class="about-text">I am a 25-year-old self-educated frontend developer. Recently I have changed my professional inerests from psychology to web development.</p>
+            <p class="about-text">I am passionate about frontend technologies because of my curiosity in seeking different ways of solving common problems. My primary goal as a web developer is to apply my knowledge and potential for creating useful and visually pleasing products.</p>
+            <p class="about-text">I have strong analytical skills and my personality can be described as thoughtful, quick learner, determined and quality-oriented.</p>
+          </section>
+
+          <section class="education accent">
+            <h2 class="title education-title uppercase">Education</h2>
+            <ul class="education-list">
+              <li class="education-list-item">Nekrasov Pedagogical College № 1 (2014-2018)</li>
+              <li class="education-list-item">St. Petersburg State Institute of Psychology and Social Work (2018-2021)</li>
+              <li class="education-list-item">Hexlet (in progress)</li>
+              <li class="education-list-item">RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+          </section>
+
+          <section class="code-example">
+            <h2 class="title code-example-title uppercase">Code example</h2>
+            <pre><code class="code">const fizzBuzz = (begin, end) => {
+  const fizz = 'Fizz';
+  const buzz = 'Buzz';
+
+  for (let i = begin; i &lt;= end; i += 1) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log(`${fizz}${buzz}`);
+    } else if (i % 3 === 0) {
+      console.log(`${fizz}`);
+    } else if (i % 5 === 0) {
+      console.log(`${buzz}`);
+    } else {
+      console.log(`${i}`);
+    }
+  }
+};</code></pre>
+
+          </section>
+        </div>
+
+        <div class="main-right-column">
+          <section class="skills white">
+            <h2 class="title skills-title uppercase">Skills</h2>
+            <div class="skills-grid">
+              <ul class="skills-list">
+                <li class="skills-list-item">HTML5</li>
+                <li class="skills-list-item">CSS3</li>
+                <li class="skills-list-item">JavaScript Basics</li>
+                <li class="skills-list-item">Git/GitHub</li>
+                <li class="skills-list-item">Figma</li>
+              </ul>
+              <ul class="progress-bar-list">
+                <li class="progress-bar">
+                  <div class="progress-bar-item html"></div>
+                </li>
+                <li class="progress-bar">
+                  <div class="progress-bar-item css"></div>
+                </li>
+                <li class="progress-bar">
+                  <div class="progress-bar-item js"></div>
+                </li>
+                <li class="progress-bar">
+                  <div class="progress-bar-item git"></div>
+                </li>
+                <li class="progress-bar">
+                  <div class="progress-bar-item figma"></div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="white">
+            <h2 class="title projects-title uppercase">Projects</h2>
+            <ul class="projects-list">
+              <li class="projects-list-item"><a href="https://github.com/Quettoipeux/rsschool-cv" class="underline" target="_blank">RSSchool CV</a></li>
+              <li class="projects-list-item"><a href="https://github.com/Quettoipeux/frontend-project-44" class="underline" target="_blank">Brain Games (in progress)</a></li>
+            </ul>
+          </section>
+
+          <section class="white">
+            <h2 class="title languages-title uppercase">Languages</h2>
+            <ul class="languages-list">
+              <li class="languages-list-item">Russian – native</li>
+              <li class="languages-list-item">English – B1 (Intermediate)</li>
+            </ul>
+          </section>
+
+          <section class="white">
+            <h2 class="title interests-title uppercase">Interests & hobbies</h2>
+            <ul class="interests-list">
+              <li class="interests-list-item">Psychology</li>
+              <li class="interests-list-item">Biology</li>
+              <li class="interests-list-item">Philosophy</li>
+              <li class="interests-list-item">Roller skating</li>
+              <li class="interests-list-item">Horse riding</li>
+              <li class="interests-list-item">Programming</li>
+              <li class="interests-list-item">Chess</li>
+              <li class="interests-list-item">Reading</li>
+            </ul>
+          </section>
+        </div>
+        
+      </main>
+
+      <footer class="footer">
+        <a href="https://github.com/Quettoipeux" target="_blank">
+          <img src="images/github.svg" alt="Github">
+        </a>
+        <p>© 2023</p>
+        <a href="https://rs.school/js/" target="_blank">
+          <img src="images/rsschool.svg" alt="RSSchool">
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
