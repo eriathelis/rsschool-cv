@@ -27,13 +27,13 @@ a {
 /* Main styles */
 @font-face {
   font-family: 'NovaMono';
-  src: url("./fonts/NovaMono-Regular.ttf");
+  src: url("../fonts/NovaMono-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Comfortaa';
-  src: url("./fonts/Comfortaa-Bold.ttf");
+  src: url("../fonts/Comfortaa-Bold.ttf");
   font-weight: 700;
 }
 
@@ -136,16 +136,16 @@ a.underline:hover::before {
 }
 
 .mail::before {
-  background: url(./images/email.svg) no-repeat;
+  background: url(../images/email.svg) no-repeat;
 }
 
 .telegram::before {
-  background: url(./images/telegram.svg) no-repeat;
+  background: url(../images/telegram.svg) no-repeat;
 }
 
 .location::before {
   vertical-align: top;
-  background: url(./images/location.svg) no-repeat;
+  background: url(../images/location.svg) no-repeat;
 }
 
 p.inline {
@@ -213,15 +213,15 @@ section.white {
 
 .about-title::before {
   vertical-align: top;
-  background: url("./images/about.svg") no-repeat;
+  background: url("../images/about.svg") no-repeat;
 }
 
 .education-title::before {
-  background: url("./images/education.svg") no-repeat;
+  background: url("../images/education.svg") no-repeat;
 }
 
 .code-example-title::before {
-  background: url("./images/code.svg") no-repeat;
+  background: url("../images/code.svg") no-repeat;
 }
 
 .code {
@@ -231,21 +231,21 @@ section.white {
 
 .skills-title::before {
   vertical-align: top;
-  background: url("./images/skills.svg") no-repeat;
+  background: url("../images/skills.svg") no-repeat;
 }
 
 .projects-title::before {
-  background: url("./images/projects.svg") no-repeat;
+  background: url("../images/projects.svg") no-repeat;
 }
 
 .languages-title::before {
   vertical-align: top;
-  background: url("./images/languages.svg") no-repeat;
+  background: url("../images/languages.svg") no-repeat;
 }
 
 .interests-title::before {
   vertical-align: top;
-  background: url("./images/interests.svg") no-repeat;
+  background: url("../images/interests.svg") no-repeat;
 }
 
 .uppercase {
